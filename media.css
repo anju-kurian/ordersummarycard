@@ -1,0 +1,321 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Roboto", sans-serif;
+	color: #545454;
+}
+
+.normal{
+	font-weight: normal;
+}
+.margin-twenty{
+	margin: 20px;
+}
+.background{
+	background-color: rgb(238,238,238);
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  max-width: 100%;
+}
+.grid-left {
+  background-color: #ffffff;
+  box-shadow: 1px 2px 6px 3px rgba(0, 0, 0, 0.25);
+  width: 29.3680297%;
+}
+/*profile*/
+	.profile{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("D:/resume/Assets/anju.jpg");
+		width: 100%;
+		height: 321.328px;
+		max-width: 100%;
+		background-repeat: no-repeat;
+	   	background-position: center;
+	  	background-size: cover;
+	  	display: flex;
+	  	align-items: flex-end;
+	}
+	.profile .name{
+		color: rgb(238,238,238);
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 10px;
+	}
+
+/*designation*/	
+	.desig{
+		display: inline-flex;
+	}
+	.desig .name{
+		margin-left: 20px;
+	}
+/*address*/
+	.address{
+		display: inline-flex;
+		margin-top: 0px;
+	}
+	.address .name{
+		margin-left: 15px;
+		padding-top: 5px;
+	}
+/*mail address*/
+	.mailaddress{
+		display: inline-flex;
+		margin-top: 5px;
+	}
+	.mailaddress .mail-id{
+		margin-left: 17px;
+	}
+/*phone no*/
+	.contact{
+		display: inline-flex;
+		margin-top: 5px;
+	}
+	.contact .phone-no{
+		margin-left: 17px;
+	}
+.line-a{
+  height: 1px;
+  width: 400px;
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+/*Title(Skills and Tools)*/
+	.title{
+		display: inline-flex;
+	}
+	.title .name{
+		margin-left: 17px;
+	}
+	.skill1 .name, .skill2 .name, .skill3 .name, .skill4 .name, .skill5 .name, .tool1 .name, .tool2 .name, .tool3 .name, .tool4 .name, .tool5 .name{
+	    margin-bottom: 10px;
+    }
+/*ProgressBar*/
+	#progressbar {
+	  background-color: rgba(0, 0, 0, 0.15);
+	  border-radius: 13px;
+	}
+	#progressbar .progress{
+	  background-color: teal;
+	  height: 15px;
+	  border-radius: 10px;
+	}
+/*Skills*/
+	/*skill1*/
+	.skill1 #progressbar .progress{
+		width: 70%;
+	}
+	/*skill2*/
+	.skill2 #progressbar .progress{
+		width: 60%;
+	}
+	/*skill3*/
+	.skill3 #progressbar .progress{
+		width: 40%;
+	}
+	/*skill4*/
+	.skill4 #progressbar .progress{
+		width: 60%;
+	}
+	/*skill5*/
+	.skill5 #progressbar .progress{
+		width: 60%;
+	}
+/*Tools*/
+	/*tool1*/
+	.tool1 #progressbar .progress{
+		width: 70%;
+	}
+	/*tool2*/
+	.tool2 #progressbar .progress{
+		width: 40%;
+	}
+	/*tool3*/
+	.tool3 #progressbar .progress{
+		width: 40%;
+	}
+	/*tool4*/
+	.tool4 #progressbar .progress{
+		width: 60%;
+	}
+	/*tool5*/
+	.tool5 #progressbar .progress{
+		width: 60%;
+	}
+.grid-right {
+	 display: grid;
+     grid-gap: 20px;
+	 /*grid-template-rows: 1fr 3fr;*/
+	 width: 63.197026%;
+
+
+}
+.firstrow{
+	 background-color: #ffffff;
+	 box-shadow: 1px 2px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.secondrow{
+	 background-color: #ffffff;
+	 box-shadow: 1px 2px 6px 3px rgba(0, 0, 0, 0.25);
+}
+/*Work Experience*/
+	.work .title{
+		margin: 30px;
+	}
+	.work .title .name{
+		font-weight: 500;
+	}
+	.company{
+		margin-left: 40px;
+	}
+	.company .name{
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	.company .period{
+		display: inline-flex;
+		margin: 10px;
+	}
+	.period h3{
+		margin-left: 20px;
+		color: teal;
+	}
+	.period h3 span{
+		color: #ffffff;
+		background-color: teal;
+		border-radius: 5px;
+		padding: 5px;
+		font-size: 15px;
+	}
+	.company .description{
+		margin: 20px 50px 20px 10px;
+		padding-right: 10px;
+		line-height: 25px;
+		color: #000000;
+	}
+/*Education*/
+	.education .title{
+		margin: 30px;
+	}
+	.education .title .name{
+		font-weight: 500;
+	}
+	.institution1{
+		margin-left: 40px;
+	}
+	.institution1 .name{
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	.institution1 .course{
+		font-style: italic;
+		color: #677573;
+		font-family: cambria;
+		margin: 5px;
+	}
+	.institution1 .period{
+		display: inline-flex;
+		margin: 10px;
+	}
+	.institution1 .description{
+		margin: 10px 50px 20px 30px;
+		padding-right: 10px;
+		color: #000000;
+	}
+	.institution2{
+		margin-left: 40px;
+	}
+	.institution2 .name{
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	.institution2 .course{
+		font-style: italic;
+		color: #677573;
+		font-family: cambria;
+		margin: 5px;
+	}
+	.institution2 .period{
+		display: inline-flex;
+		margin: 10px;
+	}
+	.institution2 .description{
+		margin: 10px 50px 20px 30px;
+		padding-right: 10px;
+		color: #000000;
+	}
+	.institution3{
+		margin-left: 40px;
+	}
+	.institution3 .name{
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	.institution3 .course{
+		font-style: italic;
+		color: #677573;
+		font-family: cambria;
+		margin: 5px;
+	}
+	.institution3 .period{
+		display: inline-flex;
+		margin: 10px;
+	}
+	.institution3 .description{
+		margin: 10px 50px 20px 30px;
+		padding-right: 10px;
+		color: #000000;
+	}	
+.line-b{
+  height: 1px;
+  width: 800px;
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+/*Hobbies*/
+	.hobbies .title{
+		margin: 30px;
+		margin-top: 10px;
+	}
+	.hobbies .title .name{
+		font-weight: 500;
+	}
+	ul.list {
+  		list-style-type: square;
+  		margin-left: 50px;
+    }
+    ul li{
+    	font-size: 18px;
+        margin: 20px;
+    }
+/*footer*/
+	.footer {
+	  background-color: teal;
+	  width: 100%;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	 }
+	 .footer .content{
+	  color: white;
+	  padding: 30px;
+	  text-align: center;
+	 }
+		/*.footer .links{
+		padding-bottom: 30px;
+		}*/
+
+
+@media all and (max-width: 420px) {
+  .grid-left, .grid-right {
+    float: none;
+    width: auto;
+  }
+}
